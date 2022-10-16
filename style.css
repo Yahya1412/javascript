@@ -1,0 +1,140 @@
+/*document*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    color: floralwhite;
+}
+ul{
+    display: flex;
+    margin-left: 65%;
+}
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+body{
+    background-color: #38416b;
+}
+.coordonné section .img {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.coordonné h4{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+color: white;
+}
+.nom{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    color: #DD4943;
+    font-size: 45px;
+    font-family: monospace;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+footer .contact{
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #353535;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 4%;
+    margin-bottom: 0%;
+}
+footer h3 {
+    color: olive;
+}
+.réseaux_sociaux a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sticky{
+    position: static;
+}
+/* projects */
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+   
+}
+
+.project{
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    background-color: #2F375B;
+    border-radius: 15px;
+    box-shadow: black 3px 6px 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.technologies{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.technologies h6{
+    color: grey;
+}
+/*contact*/
+button{
+    color:white;
+    background-color: black;
+}
+.form{
+    width: max-content;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/*contact*/
+button{
+    color:white;
+    background-color: black;
+}
+.form{
+    width: max-content;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+}

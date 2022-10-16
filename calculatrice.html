@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Calculatrice simple</title>
+        <script>
+            function calc()
+            {
+                var n1 =parseInt (document.getElementById('n1').value);
+                var n2 = parseInt(document.getElementById('n2').value);
+                var op = document.getElementById('operateur').value;
+                if(op === '+')
+                {
+                 document.getElementById('res').value = n1+n2 ;   
+                }
+                if(op === '-')
+                {
+                 document.getElementById('res').value = n1-n2 ;   
+                }
+                if(op === '*')
+                {
+                 document.getElementById('res').value = n1*n2 ;   
+                }
+                if(op === '/')
+                {
+                 document.getElementById('res').value = n1/n2 ;   
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <legend>CALCULATRICE</legend>
+        <table>
+            <tr>
+         <td>   <label for="code">Nombre 1:</label> </td>
+         <td>   <input type="number" id="n1" required="required" > </td>
+      </tr>
+        <tr>
+        <td>    <label for="p">Nombre 2:</label></td>
+         <td>    <input type="number" id="n2"  required="required" ></td>
+      </tr>
+      <tr>
+        <select id="operateur">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+      </tr>
+     <tr>
+      <td>      <label for="n"> Resultat</label></td>
+       <td>     <input type="number" id="res"  ></td>
+      </tr>
+        </table>
+        <button onclick="calc();">Calculer</button>
+   
+    </body>
+</html>

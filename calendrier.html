@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>un test pour le ds n2</title>
+    </head>
+    <body>
+        
+        <script>
+            let m = Number(window.prompt("Entrez le N° du mois : ",""));
+            let a = Number(window.prompt("Entrez la valeur de l'année : ","2020"));
+            let j=0;
+            if (isNaN(m)|| isNaN(a))
+            {
+            alert('Verifier vos données : not number ');
+            }
+            else
+            {
+            switch (m)
+            {
+            //case
+            case 1:case 3:case 5:case 7:case 8:case 10:case 12:j=31;break;
+            case 4:case 6:case 9:case 11:j=30;break;
+            case 2:if (((a%4==0)&&(a%100!==0))||(a%400==0)) j=29;else j=28;
+            default:
+            alert('Le mois doit être entre 1 et 12');
+            }
+            document.write('<br/> Le nombre des jours du mois n°'+m+' est = '+j);
+            }
+            </script>
+    </body>
+</html>
